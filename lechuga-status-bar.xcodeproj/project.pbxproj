@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB3DBFA1982AD140006A38B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3DBF91982AD140006A38B /* Cocoa.framework */; };
+		ECB3DC041982AD140006A38B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB3DC021982AD140006A38B /* InfoPlist.strings */; };
+		ECB3DC061982AD140006A38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3DC051982AD140006A38B /* main.m */; };
+		ECB3DC0A1982AD140006A38B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECB3DC081982AD140006A38B /* Credits.rtf */; };
+		ECB3DC0D1982AD140006A38B /* GGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3DC0C1982AD140006A38B /* GGLAppDelegate.m */; };
+		ECB3DC101982AD140006A38B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB3DC0E1982AD140006A38B /* MainMenu.xib */; };
+		ECB3DC121982AD140006A38B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB3DC111982AD140006A38B /* Images.xcassets */; };
+		ECB3DC191982AD140006A38B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3DC181982AD140006A38B /* XCTest.framework */; };
+		ECB3DC1A1982AD140006A38B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3DBF91982AD140006A38B /* Cocoa.framework */; };
+		ECB3DC221982AD140006A38B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB3DC201982AD140006A38B /* InfoPlist.strings */; };
+		ECB3DC241982AD140006A38B /* lechuga_status_barTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3DC231982AD140006A38B /* lechuga_status_barTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB3DC1B1982AD140006A38B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB3DBEE1982AD140006A38B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB3DBF51982AD140006A38B;
+			remoteInfo = "lechuga-status-bar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB3DBF61982AD140006A38B /* lechuga-status-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lechuga-status-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3DBF91982AD140006A38B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ECB3DBFC1982AD140006A38B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECB3DBFD1982AD140006A38B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECB3DBFE1982AD140006A38B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB3DC011982AD140006A38B /* lechuga-status-bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lechuga-status-bar-Info.plist"; sourceTree = "<group>"; };
+		ECB3DC031982AD140006A38B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB3DC051982AD140006A38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB3DC071982AD140006A38B /* lechuga-status-bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lechuga-status-bar-Prefix.pch"; sourceTree = "<group>"; };
+		ECB3DC091982AD140006A38B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ECB3DC0B1982AD140006A38B /* GGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGLAppDelegate.h; sourceTree = "<group>"; };
+		ECB3DC0C1982AD140006A38B /* GGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGLAppDelegate.m; sourceTree = "<group>"; };
+		ECB3DC0F1982AD140006A38B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ECB3DC111982AD140006A38B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB3DC171982AD140006A38B /* lechuga-status-barTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lechuga-status-barTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3DC181982AD140006A38B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECB3DC1F1982AD140006A38B /* lechuga-status-barTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lechuga-status-barTests-Info.plist"; sourceTree = "<group>"; };
+		ECB3DC211982AD140006A38B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB3DC231982AD140006A38B /* lechuga_status_barTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lechuga_status_barTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB3DBF31982AD140006A38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DBFA1982AD140006A38B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3DC141982AD140006A38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DC1A1982AD140006A38B /* Cocoa.framework in Frameworks */,
+				ECB3DC191982AD140006A38B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB3DBED1982AD140006A38B = {
+			isa = PBXGroup;
+			children = (
+				ECB3DBFF1982AD140006A38B /* lechuga-status-bar */,
+				ECB3DC1D1982AD140006A38B /* lechuga-status-barTests */,
+				ECB3DBF81982AD140006A38B /* Frameworks */,
+				ECB3DBF71982AD140006A38B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB3DBF71982AD140006A38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DBF61982AD140006A38B /* lechuga-status-bar.app */,
+				ECB3DC171982AD140006A38B /* lechuga-status-barTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB3DBF81982AD140006A38B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DBF91982AD140006A38B /* Cocoa.framework */,
+				ECB3DC181982AD140006A38B /* XCTest.framework */,
+				ECB3DBFB1982AD140006A38B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB3DBFB1982AD140006A38B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DBFC1982AD140006A38B /* AppKit.framework */,
+				ECB3DBFD1982AD140006A38B /* CoreData.framework */,
+				ECB3DBFE1982AD140006A38B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECB3DBFF1982AD140006A38B /* lechuga-status-bar */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DC0B1982AD140006A38B /* GGLAppDelegate.h */,
+				ECB3DC0C1982AD140006A38B /* GGLAppDelegate.m */,
+				ECB3DC0E1982AD140006A38B /* MainMenu.xib */,
+				ECB3DC111982AD140006A38B /* Images.xcassets */,
+				ECB3DC001982AD140006A38B /* Supporting Files */,
+			);
+			path = "lechuga-status-bar";
+			sourceTree = "<group>";
+		};
+		ECB3DC001982AD140006A38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DC011982AD140006A38B /* lechuga-status-bar-Info.plist */,
+				ECB3DC021982AD140006A38B /* InfoPlist.strings */,
+				ECB3DC051982AD140006A38B /* main.m */,
+				ECB3DC071982AD140006A38B /* lechuga-status-bar-Prefix.pch */,
+				ECB3DC081982AD140006A38B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB3DC1D1982AD140006A38B /* lechuga-status-barTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DC231982AD140006A38B /* lechuga_status_barTests.m */,
+				ECB3DC1E1982AD140006A38B /* Supporting Files */,
+			);
+			path = "lechuga-status-barTests";
+			sourceTree = "<group>";
+		};
+		ECB3DC1E1982AD140006A38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3DC1F1982AD140006A38B /* lechuga-status-barTests-Info.plist */,
+				ECB3DC201982AD140006A38B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB3DBF51982AD140006A38B /* lechuga-status-bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3DC271982AD140006A38B /* Build configuration list for PBXNativeTarget "lechuga-status-bar" */;
+			buildPhases = (
+				ECB3DBF21982AD140006A38B /* Sources */,
+				ECB3DBF31982AD140006A38B /* Frameworks */,
+				ECB3DBF41982AD140006A38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lechuga-status-bar";
+			productName = "lechuga-status-bar";
+			productReference = ECB3DBF61982AD140006A38B /* lechuga-status-bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB3DC161982AD140006A38B /* lechuga-status-barTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3DC2A1982AD140006A38B /* Build configuration list for PBXNativeTarget "lechuga-status-barTests" */;
+			buildPhases = (
+				ECB3DC131982AD140006A38B /* Sources */,
+				ECB3DC141982AD140006A38B /* Frameworks */,
+				ECB3DC151982AD140006A38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB3DC1C1982AD140006A38B /* PBXTargetDependency */,
+			);
+			name = "lechuga-status-barTests";
+			productName = "lechuga-status-barTests";
+			productReference = ECB3DC171982AD140006A38B /* lechuga-status-barTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB3DBEE1982AD140006A38B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GGL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gustavo Gimenez";
+				TargetAttributes = {
+					ECB3DC161982AD140006A38B = {
+						TestTargetID = ECB3DBF51982AD140006A38B;
+					};
+				};
+			};
+			buildConfigurationList = ECB3DBF11982AD140006A38B /* Build configuration list for PBXProject "lechuga-status-bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB3DBED1982AD140006A38B;
+			productRefGroup = ECB3DBF71982AD140006A38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB3DBF51982AD140006A38B /* lechuga-status-bar */,
+				ECB3DC161982AD140006A38B /* lechuga-status-barTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB3DBF41982AD140006A38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DC041982AD140006A38B /* InfoPlist.strings in Resources */,
+				ECB3DC121982AD140006A38B /* Images.xcassets in Resources */,
+				ECB3DC0A1982AD140006A38B /* Credits.rtf in Resources */,
+				ECB3DC101982AD140006A38B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3DC151982AD140006A38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DC221982AD140006A38B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB3DBF21982AD140006A38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DC061982AD140006A38B /* main.m in Sources */,
+				ECB3DC0D1982AD140006A38B /* GGLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3DC131982AD140006A38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3DC241982AD140006A38B /* lechuga_status_barTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB3DC1C1982AD140006A38B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB3DBF51982AD140006A38B /* lechuga-status-bar */;
+			targetProxy = ECB3DC1B1982AD140006A38B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB3DC021982AD140006A38B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3DC031982AD140006A38B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECB3DC081982AD140006A38B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3DC091982AD140006A38B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ECB3DC0E1982AD140006A38B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3DC0F1982AD140006A38B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ECB3DC201982AD140006A38B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3DC211982AD140006A38B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB3DC251982AD140006A38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECB3DC261982AD140006A38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECB3DC281982AD140006A38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lechuga-status-bar/lechuga-status-bar-Prefix.pch";
+				INFOPLIST_FILE = "lechuga-status-bar/lechuga-status-bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECB3DC291982AD140006A38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lechuga-status-bar/lechuga-status-bar-Prefix.pch";
+				INFOPLIST_FILE = "lechuga-status-bar/lechuga-status-bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECB3DC2B1982AD140006A38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lechuga-status-bar.app/Contents/MacOS/lechuga-status-bar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lechuga-status-bar/lechuga-status-bar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lechuga-status-barTests/lechuga-status-barTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECB3DC2C1982AD140006A38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lechuga-status-bar.app/Contents/MacOS/lechuga-status-bar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lechuga-status-bar/lechuga-status-bar-Prefix.pch";
+				INFOPLIST_FILE = "lechuga-status-barTests/lechuga-status-barTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB3DBF11982AD140006A38B /* Build configuration list for PBXProject "lechuga-status-bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3DC251982AD140006A38B /* Debug */,
+				ECB3DC261982AD140006A38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3DC271982AD140006A38B /* Build configuration list for PBXNativeTarget "lechuga-status-bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3DC281982AD140006A38B /* Debug */,
+				ECB3DC291982AD140006A38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB3DC2A1982AD140006A38B /* Build configuration list for PBXNativeTarget "lechuga-status-barTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3DC2B1982AD140006A38B /* Debug */,
+				ECB3DC2C1982AD140006A38B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB3DBEE1982AD140006A38B /* Project object */;
+}
