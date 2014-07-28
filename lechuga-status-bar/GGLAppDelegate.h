@@ -10,6 +10,9 @@
 
 @interface GGLAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (readwrite, retain) IBOutlet NSMenu *statusMenu;
+@property (readwrite, retain) NSStatusItem *statusItem;
 
+
+- (IBAction)jsonConsola:(id)sender;
 @end
