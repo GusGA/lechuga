@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "mac",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "mac",
       "scale" : "2x",
       "filename" : "dollar_highligth@2x.png"
     }
