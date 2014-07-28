@@ -1,5 +1,4 @@
 #LechugApp
---
 
 StatusBar app con información del tipo de cambio paralelo del Dolar en Venezuela.
 
