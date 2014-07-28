@@ -11,7 +11,8 @@
 
 @interface GGLechuga : NSObject
 
-@property (nonatomic, strong) NSMutableDictionary *menuItemsDict;
+@property (nonatomic, strong) NSDictionary *usdData;
+@property (nonatomic, strong) NSDictionary *euroData;
 
 - (void) jsonRequest;
 - (void) updateRates;
