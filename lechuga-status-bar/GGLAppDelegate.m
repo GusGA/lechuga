@@ -107,9 +107,11 @@
                             [NSMutableString stringWithFormat:@"Sicad 2 Bs.F. %@", [prices objectForKey:@"sicad2"]], nil];
   for (int i = 0; i < titles.count; i++) {
     if ([titles[i] rangeOfString:@"(null)"].location != NSNotFound){
-      [titles[i]  performSelector:@selector(stringByReplacingOccurrencesOfString:withString:)
-                       withObject:@"(null)"
-                       withObject:@"-"];
+      NSString *titulo = [NSString stringWithFormat:@"%@", titles[i]];
+      titulo = [titulo stringByReplacingOccurrencesOfString:@"(null)" withString:@"-"];
+      titles[i] = titulo;
+      titulo = nil;
+
     }
 
     [[inArray objectAtIndex:i] performSelector:@selector(setTitle:)
