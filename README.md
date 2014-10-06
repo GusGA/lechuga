@@ -6,7 +6,7 @@ StatusBar app con información del tipo de cambio paralelo del Dolar en Venezuel
   <img src="https://raw.githubusercontent.com/GusGA/lechuga/master/img/screenshot.png" alt="lechugapp" title="LechugApp">
 </p>
 
-###Versión 0.1
+###Versión 0.2
 
 ###Instalación
 --
