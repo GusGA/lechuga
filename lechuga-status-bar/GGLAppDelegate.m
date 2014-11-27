@@ -102,7 +102,7 @@
 
 - (void)updateItemsPrice:(NSArray *)inArray WithPrices:(NSDictionary *)prices {
   NSMutableArray *titles = [NSMutableArray arrayWithObjects:
-                            [NSMutableString stringWithFormat:@"Efectivo Bs.F. %@",[prices objectForKey:@"efectivo"]],
+                            [NSMutableString stringWithFormat:@"Efectivo Bs.F. %@",[prices objectForKey:@"efectivo_real"]],
                             [NSMutableString stringWithFormat:@"Transferencia Bs.F. %@",[prices objectForKey:@"transferencia"]],
                             [NSMutableString stringWithFormat:@"Sicad 2 Bs.F. %@", [prices objectForKey:@"sicad2"]], nil];
   for (int i = 0; i < titles.count; i++) {
