@@ -10,7 +10,7 @@ StatusBar app con información del tipo de cambio paralelo del Dolar en Venezuel
 
 ###Instalación
 --
-Descargar la [aplicación](https://github.com/GusGA/lechuga/releases/download/v0.2/LechugApp.zip) y ejecutar.
+Descargar la [aplicación](https://github.com/GusGA/lechuga/releases/download/v0.2.1/LechugApp.zip) y ejecutar.
 
 También puedes importarla a Aplicaciones y ejecutarla desde el launchpad
 
