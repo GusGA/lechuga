@@ -1,4 +1,4 @@
-#LechugApp
+# LechugApp
 
 StatusBar app con información del tipo de cambio paralelo del Dolar en Venezuela.
 
@@ -8,14 +8,14 @@ StatusBar app con información del tipo de cambio paralelo del Dolar en Venezuel
 
 ###Versión 0.2
 
-###Instalación
---
+### Instalación
+
 Descargar la [aplicación](https://github.com/GusGA/lechuga/releases/download/v0.2.1/LechugApp.zip) y ejecutar.
 
 También puedes importarla a Aplicaciones y ejecutarla desde el launchpad
 
-###Requerimientos
---
+### Requerimientos
+
 Sistema operativo OS X Mountain Lion (__10.8__) en adelante.
 
 
